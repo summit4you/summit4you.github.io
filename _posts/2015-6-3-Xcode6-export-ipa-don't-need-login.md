@@ -22,9 +22,11 @@ xcode6新版本在Archive中导出ipa时会要求登入并选择相关的Apple�
 - 通过finder找到生成的Archive文件
 - 把Archive拷贝至工程文件下
 - 执行以下命令行
+
 ```
 xcodebuild -exportArchive -archivePath $projectname.xcarchive -exportPath $projectname -exportFormat ipa -exportProvisioningProfile “Provisioning Profile Name”
 ```
+
 - 在工程文件下得到ipa文件
 
 # 小结 #
