@@ -23,7 +23,11 @@ xcode6新版本在Archive中导出ipa时会要求登入并选择相关的Apple�
 - 把Archive拷贝至工程文件下
 - 执行以下命令行
 
+{% highlight ruby linenos %}
+
 `xcodebuild -exportArchive -archivePath $projectname.xcarchive -exportPath $projectname -exportFormat ipa -exportProvisioningProfile “Provisioning Profile Name”`
+
+{% highlight ruby linenos %}
 
 - 在工程文件下得到ipa文件
 
