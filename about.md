@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 关于
-permalink: /关于/
+permalink: /about/
 ---
 
 大学教师，偶尔写写技术文章
