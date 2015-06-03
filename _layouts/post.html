@@ -10,7 +10,7 @@ layout: default
   </div>
 
   <div class="date" style="font-style: normal;">
-    写于 {{ page.date | date: "%Y年%m月%e日 %H点%M分" }}
+    写于 {{ page.date | date: "%Y年%-m月%-d日 %H点%M分%S秒" }}
   </div>
 
   {% include disqus.html %}
