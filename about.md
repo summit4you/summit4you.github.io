@@ -1,15 +1,15 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: 关于
+permalink: /关于/
 ---
 
-Some information about you!
+大学教师，偶尔写写技术文章
 
-### More Information
+### 详细简介
 
-A place to include any other types of information that you'd like to include about yourself.
+此处省略一百行
 
-### Contact me
+### 联络我
 
-[email@domain.com](mailto:email@domain.com)
+[summit_mail@qq.com](mailto:summit_mail@qq.com)
