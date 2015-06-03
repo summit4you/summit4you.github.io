@@ -25,7 +25,7 @@ footer-links:
   instagram:
   linkedin:
   pinterest:
-  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
+  rss: Copyright 2015. All rights reserved. Powered by <a href="https://github.com/barryclark/jekyll-now">Jekyll</a>, Design by summit# just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter: chocice2012
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
