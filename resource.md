@@ -16,6 +16,7 @@ permalink: /resource/
 
 - [cocoachina](http://www.cocoachina.com/)
 - [fir.im-一个免费App托管平台](http://fir.im/plaza)
+- [蒲公英-应用测试专家](http://www.pgyer.com/)
 
 <h2 id="andriod">Andriod</h2>
 
