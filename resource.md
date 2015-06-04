@@ -15,6 +15,7 @@ permalink: /resource/
 ### 网站
 
 - [cocoachina](http://www.cocoachina.com/)
+- [fir.im-一个免费App托管平台](http://fir.im/plaza)
 
 <h2 id="andriod">Andriod</h2>
 
