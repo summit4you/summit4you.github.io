@@ -40,5 +40,6 @@ permalink: /resource/
 ### 工具
 
 - [b64.io - image optimisation & base64 encode](http://b64.io/)
+- [atool在线工具可以生成苹果icon](http://www.atool.org/)
 
 
