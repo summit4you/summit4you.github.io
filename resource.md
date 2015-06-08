@@ -28,7 +28,7 @@ permalink: /resource/
 ### 网站
 
 - [eoe](http://www.eoeandroid.com/)
-- 
+
 <h2 id="front">前端开发</h2>
 
 ### 工具
