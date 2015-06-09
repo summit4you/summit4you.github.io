@@ -18,6 +18,7 @@ permalink: /resource/
 - [cocoachina](http://www.cocoachina.com/)
 - [fir.im-一个免费App托管平台](http://fir.im/plaza)
 - [蒲公英-应用测试专家](http://www.pgyer.com/)
+- [victorbaro的博客，里面有许多很棒IOSUI实现](http://victorbaro.com/)
 
 ### 开源库
 - [Onboard :An iOS framework to easily create a beautiful and engaging onboarding experience with only a few lines of code.](https://github.com/mamaral/Onboard)
