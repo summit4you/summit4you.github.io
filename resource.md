@@ -23,6 +23,7 @@ permalink: /resource/
 
 ### 开源库
 - [Onboard :An iOS framework to easily create a beautiful and engaging onboarding experience with only a few lines of code.](https://github.com/mamaral/Onboard)
+- [gba4ios - GameBoy模拟器](https://bitbucket.org/rileytestut/gba4ios) [打包方法](http://bouk.co/blog/sideload-iphone/)
 
 
 <h2 id="andriod">Andriod</h2>
