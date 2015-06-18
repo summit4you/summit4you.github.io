@@ -10,6 +10,7 @@ permalink: /resource/
 * [Andriod](#andriod)
 * [前端开发](#front)
 * [UI](#ui)
+* [医学图像处理](#ip)
 
 <h2 id="ios">IOS</h2>
 
@@ -50,4 +51,8 @@ permalink: /resource/
 - [b64.io - image optimisation & base64 encode](http://b64.io/)
 - [atool在线工具可以生成苹果icon](http://www.atool.org/)
 
+<h2 id="ip">医学图像处理</h2>
 
+### 网站
+
+-[vialab的galeotti讲义](http://www.vialab.org/galeotti/methods_course/)
