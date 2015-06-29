@@ -57,3 +57,4 @@ permalink: /resource/
 ### 网站
 
 -[vialab的galeotti讲义](http://www.vialab.org/galeotti/methods_course/)
+-[SimpleITK Notebooks](https://github.com/InsightSoftwareConsortium/SimpleITK-Notebooks)
