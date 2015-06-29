@@ -12,6 +12,8 @@ python(x,y)是基于Python编程语言免费的科学与工程开发软件。当
 
 ![SimpleITK在Python(x,y)的安装](https://raw.githubusercontent.com/summit4you/summit4you.github.io/master/images/python/SimpleITK.jpg)
 
+更多有关SimpleITK的安装，请参见[传送门](http://www.itk.org/Wiki/SimpleITK/GettingStarted#Python_installation)
+
 ### 测试SimpleITK
 
 打开Spyder，输入以下测试代码
@@ -30,6 +32,9 @@ python(x,y)是基于Python编程语言免费的科学与工程开发软件。当
 	twoD = sitk.Image( 64, 64 , sitk.sitkFloat32 )
 	print "hello world", twoD
 ```
+
+- sitk是对应的模块
+- Image是图像类的构造函数
 
 点击运行, 得到如下输出结果：
 
@@ -94,3 +99,34 @@ hello world Image (0CF59640)
       Size: 4096
       Capacity: 4096
 ```
+### 像素操作
+
+```
+# Addressing pixels
+image . GetPixel ( 0 , 0 , 0 )
+image . SetPixel ( 0 , 0 , 0 , 1 )
+image . GetPixel ( 0 , 0 , 0 )
+
+```
+
+可以使用下标方式简写
+
+```
+image [ 0 , 0 , 0 ]
+image [ 0 , 0 , 0 ] = 10
+
+```
+
+### 显示图像
+
+```
+sitk.Show( twoD )
+```
+
+注：此函数需要在系统已安装[ImageJ](http://rsb.info.nih.gov/ij/download.html)的环境下才能调用成功，否则会提示
+
+> Error in administering child process
+
+运行后显示如下图所示：
+
+![SimpleITK-SHOW](https://raw.githubusercontent.com/summit4you/summit4you.github.io/master/images/python/SimpleITK-SHOW.png)
