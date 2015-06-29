@@ -29,34 +29,34 @@ image_RGB = sitk.Image([128,128], sitk.sitkVectorUInt8, 3)
 
 像素类型表示为枚举类型。下表给出了枚举值对应的意思。
 
-类型名              | 说明
-------------------- | -------------
-sitkUInt8           | Unsigned 8 bit integer
-sitkInt8  	        | Signed 8 bit integer
-sitkUInt16          | Unsigned 16 bit integer
-sitkInt16           | Signed 16 bit integer
-sitkUInt32          | Unsigned 32 bit integer
-sitkInt32           | Signed 32 bit integer
-sitkUInt64          | Unsigned 64 bit integer
-sitkInt64           | Signed 64 bit integer
-sitkFloat32         | 32 bit float
-sitkFloat64         | 64 bit float
-sitkComplexFloat32  | complex number of 32 bit float
-sitkComplexFloat64  | complex number of 64 bit float
-sitkVectorUInt8     | Multi-component of unsigned 8 bit integer
-sitkVectorInt8      | Multi-component of signed 8 bit integer
-sitkVectorUInt16    | Multi-component of unsigned 16 bit integer
-sitkVectorInt16     | Multi-component of signed 16 bit integer
-sitkVectorUInt32    | Multi-component of unsigned 32 bit integer
-sitkVectorInt32     | Multi-component of signed 32 bit integer
-sitkVectorUInt64    | Multi-component of unsigned 64 bit integer
-sitkVectorInt64     | Multi-component of signed 64 bit integer
-sitkVectorFloat32   | Multi-component of 32 bit float
-sitkVectorFloat64   | Multi-component of 64 bit float
-sitkLabelUInt8      | RLE label of unsigned 8 bit integers
-sitkLabelUInt16     | RLE label of unsigned 16 bit integers
-sitkLabelUInt32     | RLE label of unsigned 32 bit integers
-sitkLabelUInt64     | RLE label of unsigned 64 bit integers
+| 类型名              | 说明											|
+| ------------------- | ----------------------------------------------- |
+| sitkUInt8           | Unsigned 8 bit integers                         |
+| sitkInt8  	      | Signed 8 bit integer                            |
+| sitkUInt16          | Unsigned 16 bit integer                         |
+| sitkInt16           | Signed 16 bit integer                           |
+| sitkUInt32          | Unsigned 32 bit integer                         |
+| sitkInt32           | Signed 32 bit integer                           |
+| sitkUInt64          | Unsigned 64 bit integer                         |
+| sitkInt64           | Signed 64 bit integer                           |
+| sitkFloat32         | 32 bit float                                    |
+| sitkFloat64         | 64 bit float                                    |
+| sitkComplexFloat32  | complex number of 32 bit float                  |
+| sitkComplexFloat64  | complex number of 64 bit float                  |
+| sitkVectorUInt8     | Multi-component of unsigned 8 bit integer       |
+| sitkVectorInt8      | Multi-component of signed 8 bit integer         |
+| sitkVectorUInt16    | Multi-component of unsigned 16 bit integer      |
+| sitkVectorInt16     | Multi-component of signed 16 bit integer        |
+| sitkVectorUInt32    | Multi-component of unsigned 32 bit integer      |
+| sitkVectorInt32     | Multi-component of signed 32 bit integer        |
+| sitkVectorUInt64    | Multi-component of unsigned 64 bit integer      |
+| sitkVectorInt64     | Multi-component of signed 64 bit integer        |
+| sitkVectorFloat32   | Multi-component of 32 bit float                 |
+| sitkVectorFloat64   | Multi-component of 64 bit float                 |
+| sitkLabelUInt8      | RLE label of unsigned 8 bit integers            |
+| sitkLabelUInt16     | RLE label of unsigned 16 bit integers           |
+| sitkLabelUInt32     | RLE label of unsigned 32 bit integers           |
+| sitkLabelUInt64     | RLE label of unsigned 64 bit integers           |
 
 还有一个类型为sitkUnknown，用于未定义或错误的像素ID。它的值为-1。当前并不支持64位。当值没意义时为sitkUnknown。
 
@@ -767,6 +767,8 @@ slice = sitk.GetArrayFromImage(image)[z,:,:]
 imshow(slice)
 ```
 
-> <matplotlib.image.AxesImage at 0x110d3c290>
+```
+<matplotlib.image.AxesImage at 0x110d3c290>
+```
 
 ![SimpleITK使用matplotlob可视化](https://raw.githubusercontent.com/summit4you/summit4you.github.io/master/images/python/SimpleITK-Image-Basics.png)
