@@ -68,4 +68,4 @@ SMTPAuthenticationError: (534, '5.7.9 Please log in with your web browser and th
 - 为你的第三方应用，选择【其它类型】， 增加一个安全密码。
 - 通过使用安全密码，替换原来代码中password的值
 
-![运行结果](https://raw.githubusercontent.com/summit4you/summit4you.github.io/master/images/python/smtplib_res.png)
+![运行结果](https://raw.githubusercontent.com/summit4you/summit4you.github.io/master/images/python/smtplib-res.png)
