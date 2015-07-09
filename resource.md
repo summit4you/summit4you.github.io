@@ -11,6 +11,7 @@ permalink: /resource/
 * [前端开发](#front)
 * [UI](#ui)
 * [医学图像处理](#ip)
+* [项目管理](#pm)
 
 <h2 id="ios">IOS</h2>
 
@@ -58,3 +59,12 @@ permalink: /resource/
 
 -[vialab的galeotti讲义](http://www.vialab.org/galeotti/methods_course/)
 -[SimpleITK Notebooks](https://github.com/InsightSoftwareConsortium/SimpleITK-Notebooks)
+-[InsightSoftwareConsortium](https://github.com/InsightSoftwareConsortium)
+-[pyCellAnalyst](https://osf.io/2ka4i/)
+-[Open Science Framework](https://osf.io/)
+
+<h2 id="pm">项目管理</h2>
+
+### 工具
+
+-[纷云](https://lesschat.com/signup)
